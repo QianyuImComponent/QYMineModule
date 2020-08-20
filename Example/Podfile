@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QYMineModule_Example' do
+  pod 'QYMineModule', :path => '../'
+
+  target 'QYMineModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
