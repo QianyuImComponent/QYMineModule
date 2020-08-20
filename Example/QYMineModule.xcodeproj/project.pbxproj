@@ -14,6 +14,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		EF445AA624EE4EAD005E46F0 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = EF445AA124EE4EAD005E46F0 /* Fastfile */; };
+		EF445AA724EE4EAD005E46F0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EF445AA224EE4EAD005E46F0 /* README.md */; };
+		EF445AA824EE4EAD005E46F0 /* remove_git_tag.rb in Resources */ = {isa = PBXBuildFile; fileRef = EF445AA424EE4EAD005E46F0 /* remove_git_tag.rb */; };
+		EF445AA924EE4EAD005E46F0 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = EF445AA524EE4EAD005E46F0 /* report.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		A30A0FA581807770673349F7 /* Pods_QYMineModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYMineModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3422F3CFC68B63AFACADECD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DE6FD0C8058890714CFDCD74 /* Pods-QYMineModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYMineModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-QYMineModule_Example/Pods-QYMineModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EF445AA124EE4EAD005E46F0 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		EF445AA224EE4EAD005E46F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF445AA424EE4EAD005E46F0 /* remove_git_tag.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = remove_git_tag.rb; sourceTree = "<group>"; };
+		EF445AA524EE4EAD005E46F0 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +138,7 @@
 				78C2CA783493D37B4037DE28 /* QYMineModule.podspec */,
 				C3422F3CFC68B63AFACADECD /* README.md */,
 				55C433085409B767999602F8 /* LICENSE */,
+				EF445AA024EE4EAD005E46F0 /* fastlane */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -149,6 +158,26 @@
 				9D983A1F3A5B1C319B705895 /* Pods-QYMineModule_Example.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF445AA024EE4EAD005E46F0 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				EF445AA124EE4EAD005E46F0 /* Fastfile */,
+				EF445AA224EE4EAD005E46F0 /* README.md */,
+				EF445AA324EE4EAD005E46F0 /* actions */,
+				EF445AA524EE4EAD005E46F0 /* report.xml */,
+			);
+			name = fastlane;
+			path = ../fastlane;
+			sourceTree = "<group>";
+		};
+		EF445AA324EE4EAD005E46F0 /* actions */ = {
+			isa = PBXGroup;
+			children = (
+				EF445AA424EE4EAD005E46F0 /* remove_git_tag.rb */,
+			);
+			path = actions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +268,10 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				EF445AA724EE4EAD005E46F0 /* README.md in Resources */,
+				EF445AA824EE4EAD005E46F0 /* remove_git_tag.rb in Resources */,
+				EF445AA924EE4EAD005E46F0 /* report.xml in Resources */,
+				EF445AA624EE4EAD005E46F0 /* Fastfile in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import QYUtilCore
 
-class QYMineController: UIViewController {
+class QYMineController: QYViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
