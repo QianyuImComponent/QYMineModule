@@ -6,7 +6,8 @@
 //
 
 import UIKit
+import QYUtilCore
 
-class QYMineViewModel: NSObject {
+open class QYMineViewModel: QYViewModel {
 
 }

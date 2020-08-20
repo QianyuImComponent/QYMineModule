@@ -8,9 +8,9 @@
 import UIKit
 import QYUtilCore
 
-class QYMineController: QYViewController {
+open class QYMineController: QYViewController {
 
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
